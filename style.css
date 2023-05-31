@@ -1,0 +1,88 @@
+header nav {
+    background-color: black;
+    position:sticky;
+}
+nav ul{
+    order: 5;
+    position: fixed;
+    height: 100%;
+    color:white;
+    background-color: rgb(212, 39, 157);
+    padding: 50px;
+    list-style-type: none;
+    font-size: 20px;;
+    }
+h1 {
+    font-family:"poppins";
+    background-color: rgb(63, 117, 234);
+    color:white;
+    text-align: right;
+    padding: 50px;
+    font-size: 100px;
+    height: 500px;
+    }
+.navIcons {
+    display: block;
+    float: left;
+    position: fixed;
+}
+* {
+    box-sizing: border-box;
+    color: white;
+    font-family: poppins;   
+}
+html {
+    background-color: black;
+}
+#topartist{
+    opacity: .3;
+    width: 755px;
+    position:absolute;
+    text-align: center;
+    margin-left: 200 px;
+    margin-top: 65px;
+    filter: blur(4px);
+   }
+article{
+    height: 80px;
+}
+main{
+    margin-top  : 100px; 
+    text-align: center;
+    
+    
+}
+
+.account {
+text-align: left;
+display: block;
+position: sticky;
+margint
+}
+.search {
+    text-align: right;
+    position: sticky;
+    display: block;
+    }
+
+#one {
+    background-color: rgb(49, 17, 190);
+    padding: 25px;
+    margin: 30px;
+}
+#two {
+    background-color: rgb(153, 28, 203);
+    padding: 25px;
+    margin: 30px;
+}
+#three {
+    background-color: rgb(17, 187, 190);
+    padding: 25px;
+    margin: 30px;
+}
+#four
+ {
+    background-color: rgb(190, 17, 135);
+    padding: 25px;
+    margin: 30px;
+}

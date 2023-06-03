@@ -11,37 +11,67 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500;1,700&display=swap" rel="stylesheet">
 <link href="style.css" rel="stylesheet">
-        <title>Top Hits</title>
+<title>Top Hits</title>
     </head>
     <body>
+        <nav>                
+            <ul>
+            <br>
+            <br>
+              <li><img src ='Home.png' height="40px"/><a href="#home"><span> Home</span></a></li>
+              <br>
+              <li><img src = 'search.png' height="40px"/><a href="#search"><span> Search</span></a></li>
+              <br>
+              <li><img src = 'library.webp' height='40px'/><a href="#library"><span>  Your Library</span></a></li>
+              <br>
+              <br>
+              <br>
+              <li><img src = 'icons.png' height='40px'/><a href="#create"> Create </a></li>
+              <br>
+              <li><img src = 'heart.png' height='40px'/><a href="#favorites"> Your Favorites</a></li>
+            </ul>
+        </nav>
+        <h5 id="spotifytext">Spotify</h5>
+        <div class="media">
+            <img id="spotify" src="spotify.png" height="55px"/>
+        </div>
         <header>
-            <nav>
-                <ul>
-                  <li><a href="#home">Home</a></li>
-                  <li><a href="#search">Search</a></li>
-                  <li><a href="#library">Your Library</a></li>
-                </ul>
-            </nav>
-            <div>
-            <h6 class="account">Account</h6> 
-            <h6 class="search">search</h6>
-            </div>
+            <div id ="border1"> </div>
+            <div id ="border2"> </div>
+            <div class="header">
+                <h6 class="account">Account</h6> 
+                <h6 class="search">search</h6>
+                </div>
+                <br>
+           
+           
             <br>
             <br>
-            <br>
-
-            
-            <img id='topartist' src='dualipa.jfif'/>
-            <h6> PLAYLIST</h6>
-            <h1> Top Hits</h1>
+            <br>          
+                      
         </header>
         <main>
-            <article id="one">Dance The Night</article>
-            <article id="two">Flowers</article>
-            <article id="three">Where She Goes</article>
-            <article id="four">Kill Bill</article>
-            <article id="five">Cupid</article>
-
+            
+            <div class="topnav">
+                <h4 id="playlist"> PLAYLIST</h4>
+                <h4 id="tophits"> Top Hits</h4>
+                <img id='topartist' src='dualipa.jpg' height ="600px"/>
+                <p id="topheader">Dua Lipa is on top of the Hottest 50!</p>
+                <p id="likes">33,754,424 likes 50 songs, about 2 hr 30 min</p>
+                </div>
+            <div class="music-list">
+                <article id="one"><img src ='unnamed.jpg' width="250"
+                    height="250" />Dance The Night</article>
+                <article id="two"><img src ='miley-cyrus.jpg' width="150"
+                    height="150"/>Flowers</article>
+                <article id="three"><img src='mae-stephens.jpg' width="150"
+                    height="150">If We Broke Up</article>
+                <article id="four"><img src='kill-bill.jfif' width="150"
+                    height="150"/>Kill Bill</article>
+                <article id="five"><img src='50-50.jpeg' width="150"
+                    height="150""/>Cupid</article>
+            </div>   
+           
         </main>
         <footer></footer>
     </body>

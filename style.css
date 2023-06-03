@@ -1,75 +1,150 @@
-header nav {
-    background-color: black;
-    position:sticky;
-}
-nav ul{
-    order: 5;
-    position: fixed;
-    height: 100%;
-    color:white;
-    background-color: rgb(212, 39, 157);
-    padding: 50px;
-    list-style-type: none;
-    font-size: 20px;;
-    }
-h1 {
-    font-family:"poppins";
-    background-color: rgb(63, 117, 234);
-    color:white;
-    text-align: right;
-    padding: 50px;
-    font-size: 100px;
-    height: 500px;
-    }
-.navIcons {
-    display: block;
-    float: left;
-    position: fixed;
-}
-* {
-    box-sizing: border-box;
-    color: white;
-    font-family: poppins;   
-}
 html {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    color: white;
 }
-#topartist{
-    opacity: .3;
-    width: 755px;
+body {
+   margin: 0px;
+}
+nav {
+    height:900px;
+    width: 300px;
+    position: fixed;
+    margin-top: 0px;
+    position:fixed;
+    z-index: 4;
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    font-family: "poppins";
+  }
+  nav ul {
+    list-style-type: none;
+    margin-top: 80px;
+    color:rgb(255, 255, 255);  
+    opacity: .7;
+  }
+  a{
+    color:rgb(247, 242, 202);
+    vertical-align: middle;
+    text-decoration: none;
+    margin-left: 60px;
+    padding: 10px;
+    font-size: 15px;
+    opacity: 1;
+   
+    
+      }
+li img {
     position:absolute;
-    text-align: center;
-    margin-left: 200 px;
-    margin-top: 65px;
-    filter: blur(4px);
-   }
-article{
-    height: 80px;
-}
-main{
-    margin-top  : 100px; 
-    text-align: center;
-    
-    
-}
-
-.account {
-text-align: left;
-display: block;
-position: sticky;
-margint
-}
-.search {
-    text-align: right;
-    position: sticky;
-    display: block;
     }
 
+header {
+    position:fixed;
+    width: 1700px;   
+    height: 60px;
+    background-color: rgb(91, 72, 45);
+    z-index: 2;
+    opacity: .7;
+    font-size: 25px;
+   }
+h5{
+    margin-top: 10px;
+    margin-left: 100px;
+    position: fixed;
+    opacity: 1;
+    color: white;
+    font-size: 30px;
+    font-family: "poppins";
+    z-index: 3;
+        }
+.media {
+    z-index: 4;
+}
+
+ #border2 {
+    height: 1000px;
+    width: 250px;
+    position: fixed;
+    opacity: 1;
+    z-index: 3;
+    font-size: 40px;
+    background-color: rgb(4, 4, 4);
+}
+div h4 {
+    height: 300px;
+    width: 570px;
+    padding: 15px;
+    text-align: center;
+    z-index: 1; 
+    font-family: "poppins"; 
+}
+#spotifytext {
+    margin-left: 110px;
+    margin-top: 15px;
+    position: fixed;
+}
+#spotify {
+    margin-left: 30px;
+    margin-top: 10px;
+    position: fixed;
+    z-index: 4;
+}
+h6 {
+    position: fixed;
+    text-align: right;
+    margin-left: 1400px;
+    font-family: "poppins";
+    font-size: 15px;
+
+}
+#playlist {
+    margin-left: 210px;
+    margin-top: 160px;
+    position:absolute;
+    font-size: 20px;
+}
+#tophits {
+    margin-left: 400px;
+    margin-top: 150px;
+    position:absolute;
+    font-size: 120px;
+    }
+p, #topheader{
+margin-left: 460px;
+margin-top: 400px;
+position:absolute;
+font-size: 20px;
+font-family: "poppins";
+}
+p, #likes {
+    margin-left: 460px;
+    margin-top: 450px;
+    position:absolute;
+    font-size: 20px;
+    font-family: "poppins";
+    opacity: .7;
+}
+.music-list {
+    margin-left: 300px; 
+    margin-top: 600px;
+    position:absolute;
+    width: 1250px;
+    background-color: black;
+}
+#topartist {
+    margin-left:600px;
+    margin-top: 70px;
+    opacity: .6 ;
+    position: fixed;
+    z-index: 0;
+    filter: blur(3px);
+    }
 #one {
     background-color: rgb(49, 17, 190);
     padding: 25px;
-    margin: 30px;
-}
+    margin: 30px ;
+    
+      }
 #two {
     background-color: rgb(153, 28, 203);
     padding: 25px;
@@ -85,4 +160,9 @@ margint
     background-color: rgb(190, 17, 135);
     padding: 25px;
     margin: 30px;
+}
+#five {
+    background-color: rgb(49, 17, 190);
+    padding: 25px;
+    margin: 30px ;
 }
